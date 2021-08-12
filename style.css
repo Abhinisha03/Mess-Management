@@ -1,25 +1,93 @@
-*{
+
     margin: 0;
     padding: 0;
-    font-family: 'Newsreader', serif;
-}
-
-html{
     scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.carousel-inner img {
-    width: 100%;
-    height: 90vh;
-  }
+.home{
+    background: url(./asiya-kiev-SiwrpBnxDww-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    border: antiquewhite;
+    height: 800px;
+    color: white;
+    
+}
 
-  .about p{
-      color: darkgrey;
-  }
+.home h1{
+    font-size: 4em;
+    font-weight: bold;
+    
+}
 
-  .about h2{
-      font-weight: bold;
-  }
-  
+.home h2{
+    font: italic;
+    font-size: 1.5em;
+    
+}
 
+.home .btn1{
+    height: 45px;
+    width: 140px;
+    background-color: turquoise;
+    color:white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+
+.home .btn2{
+    height: 45px;
+    width: 140px;
+    background:transparent;
+    color:white;
+    outline: none;
+    border: 2px solid white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn2:hover{
+    background-color: turquoise;
+    color: white;
+    border:none
+}
+
+.btn1:hover{
+    background:none;
+    color: white;
+    border:2px solid white;
+}
+
+
+#navbarNav{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.services p{
+    color: dimgray;
+    font-weight: bold;
+}
+
+.services h1{
+    font-weight: bolder;
+}
+
+
+
+#navtop{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    
+}
   
